@@ -3,11 +3,11 @@
 
 <div id="msgcontainer">
     <form id="newMessageForm">
-    	<label>Subject </label> <input type="text" name="subject" maxlength="128" required><br>
-    	<label>To: </label> <select id="recipients" name="recipients[]" multiple required></select><br>
-    	<label>Body: </label><br>
+    	<br><label>Subject </label> <input type="text" name="subject" maxlength="128" required><br>
+    	<br><label>To: </label> <select id="recipients" name="recipients[]" multiple required></select><br>
+    	<br><label>Body: </label><br>
     	<textarea name="body" rows="20" cols="80" required></textarea><br>
     	<input id="sender" type="hidden" name="sender" />
-    	<button type="submit">Send</button>
+    	<button id="send" type="submit">Send</button>
     </form>
 </div>

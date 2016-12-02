@@ -191,8 +191,48 @@ body {
 }
 
 /*
+ * USER STYLES
+ */
+ 
+#compose{
+	margin: 6px 0px 6px 0px;
+    font-weight: bold;
+}
+
+#msgcontainer{
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	
+}
+
+.instructions{
+	display: inline-block;
+	text-align: left;
+	width: 45%;
+}
+
+h1{
+	padding: 12px 16px 12px 16px;
+	text-align: center;
+	color: black;
+	margin: 0 auto;
+}
+ 
+/*
  * MESSAGE STYLES
- */ 
+ */
+
+label{
+	font-family: 'Open Sans', arial
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#cancel, #send {
+	margin: 4px 0px 6px 2px;
+	padding: 10px 10px 10px 10px;
+    font-weight: bold;
+}
 
 .message {
 	cursor: pointer;

@@ -1,8 +1,8 @@
 <?php
 
 define("SERVER", "localhost");
-define("USER", "root");
-define("PASS", "enterplzkthx");
+define("USER", getenv('C9_USER'));
+define("PASS", "");
 define("DATABASE", "cheapomail");
 define("ADMIN_ID", 1);
 define("HASH_PASS", "md5");

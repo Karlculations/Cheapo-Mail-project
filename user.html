@@ -1,16 +1,26 @@
-<button id="logout">Logout</button>
-<h1>Hello <span id="name"></h1>
-
-<p>Here you can view your messages</p>
-
-<div id="msgcontainer">
-    <button id="compose">+</button>
-    <div>
-        <h2 id="msgHeader">Sender - Subject</h2>
-        <ul id="msglst">
-        </ul>
+<div class="container">
+    <div class="header">
+            <h1>Cheapo Mail</h1>
+        	<button id="logout">Logout</button>
     </div>
-
-    <div id="msg">
+    <div class="page_user">
+        <h1>Hello <span id="name"></span></h1>
+        
+        <div class="instructions">
+            <p class="instruction">Here you can view your messages</p>
+        </div>
+        
+        <div id="msgcontainer">
+            <button id="compose">+</button> New Message
+            <br><br>
+            <div>
+                <h2 id="msgHeader">Sender - Subject</h2>
+                <ul id="msglst">
+                </ul>
+            </div>
+        
+            <div id="msg">
+            </div>
+        </div>
     </div>
 </div>
