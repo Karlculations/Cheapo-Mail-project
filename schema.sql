@@ -18,6 +18,11 @@ CREATE TABLE `user` (
 
 /* create admin account (id=1 represents admin) with username 'admin' and password 'admin' */
 INSERT INTO `user` (`firstname`, `lastname`, `username`, `password`) values ('Ultimate', 'Admin', 'admin', '78a41fb9315f6e22a9983e141f58534d');
+INSERT INTO `user` (`firstname`, `lastname`, `username`, `password`) values ('Karl', 'Goddard', 'karculations', 'db7d534955d0c25ecc94e11126bb5851'); /*password = Sceptile1*/
+INSERT INTO `user` (`firstname`, `lastname`, `username`, `password`) values ('Orren', 'Joseph', 'Orren', 'ba8bb56b3313c1581f35eea79843cbcf'); /*password = Orren1*/
+INSERT INTO `user` (`firstname`, `lastname`, `username`, `password`) values ('Locksley', 'Murray', 'Locks', '362219e129cf2d0cfb68833e8ad95515'); /*password = Locksley1*/
+
+
 
 DROP TABLE IF EXISTS `message`;
 CREATE TABLE `message` (
