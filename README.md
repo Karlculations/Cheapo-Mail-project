@@ -1,2 +1,2 @@
-# info2180-project3
+#  CHEAPO MAIL project
 Cheapo Mail
